@@ -47,7 +47,7 @@ In this demo version:
 - Output includes both the *transcript* and *predicted harassment/scam category*.
 
 <p align="center">
-  <img src="https://i.imgur.com/your_demo_screenshot.png" alt="Guardian AI Gradio Demo" width="600"/>
+  <img src="WhatsApp Image 2025-04-20 at 00.17.27_96cb87b9.jpg" alt="Guardian AI UI" width="600"/>
 </p>
 
 ---
