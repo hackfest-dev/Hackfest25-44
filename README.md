@@ -47,6 +47,8 @@ In this demo version:
 - The system transcribes and analyzes the audio instantly.
 - Output includes both the transcript and predicted harassment or scam category.
 
+![Guardian AI UI](WhatsApp%20Image%202025-04-20%20at%2000.17.27_96cb87b9.jpg)
+
 ---
 
 Tech Stack
