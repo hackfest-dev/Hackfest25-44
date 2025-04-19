@@ -1,90 +1,118 @@
-# Guardian AI — Real-Time Harassment Detection for Calls & Messages
-
-*Team Name:* Compiling Pandas  
-*Hackathon:* Hackfest 2025  
-*Track:* Open Innovation  
-*College:* B.M.S Institute Of Technology And Management, Karnataka
-
----
-
-##  Problem Statement
-
-Harassment via phone calls and text messages is a growing issue. Current tools like True caller and telecom spam filters rely on user reports and fail to analyze actual conversation content, leaving many users vulnerable to *verbal abuse, **scam threats, and **blackmail*.
-
-*Guardian AI* is an AI-powered system designed to proactively detect and alert users to harassment — both in calls and messages — using advanced speech recognition and NLP models.
+# 🚨 Guardian AI – Real-Time Harassment Detection from Calls & Messages  
+### Team Name: Compiling Pandas  
+### Hackathon: Hackfest 2025  
+### Track: Open Innovation  
+### College: B.M.S Institute Of Technology And Management, Karnataka  
 
 ---
 
-##  Our Approach
+## 🔍 Problem Statement  
+*AI-powered harassment detection for calls & messages*
 
-###  Call Harassment Detection:
-1. Record calls from unknown numbers (user opt-in).
-2. Convert speech to text using *Google Speech-to-Text* or *OpenAI Whisper*.
-3. Analyze using fine-tuned *NLP models* (BERT/GPT) to detect abusive content.
-4. Notify user and offer options: *Block, **Report, **Save as Evidence*.
-
-###  Message Harassment Detection:
-1. Real-time scanning of incoming messages.
-2. NLP-based classification (safe / suspicious / harassing).
-3. User actions: *Block Sender, **Auto-Warn, or **Store Evidence*.
+Harassment via phone calls and messages is a rising concern. Victims receive threats, abuse, and emotional manipulation, often from unknown or masked numbers. Existing tools like spam filters rely on crowd-sourced reports and fail to catch real-time abuse — especially verbal harassment during calls.
 
 ---
 
-## Tech Stack
+## 💡 Our Solution: Guardian AI  
 
-| Layer        | Tools/Tech |
-|--------------|------------|
-| Speech-to-Text | Google Speech-to-Text API, OpenAI Whisper |
-| NLP Models | Hugging Face Transformers, BERT, GPT, TensorFlow |
-| Backend & APIs | Node.js (Express), FastAPI (Python) |
-| Database | MongoDB, Firebase Firestore |
-| Frontend | React Native, React.js |
-| Cloud Services | Google Cloud, AWS Lambda |
+*Guardian AI* is an intelligent system designed to detect harassment and scam attempts in real time, without needing prior reports or user actions.
 
----
-
-##  Key Features
-
--  *Real-Time Detection* for both calls and texts
--  *AI-powered NLP Models* trained on harassment/scam datasets
--  *User-Centric Control*: Block, Report, Save for Legal Action
--  *Integration-Ready*: APIs for telecoms and law enforcement
--  *Language Support*: Built to scale across regional languages
+### Key Highlights:
+- 🧠 AI-based detection from live phone calls and messages  
+- 📞 Automatically records unknown number calls  
+- 🎧 Uses Whisper to transcribe calls  
+- 🔍 Uses a BERT-based NLP model to detect scam or harassment type  
+- 🔐 Offers options to block, report, or save the call/message as legal evidence  
 
 ---
 
-## Privacy & Security
+## 🧠 How It Works  
 
-- End-to-end encrypted data handling.
-- User consent required for any recording or storage.
-- GDPR and Indian IT Act Section 66E aligned data policies.
-
----
-
-## Use Cases
-
-- Individuals facing harassment or scam calls.
-- Telecom providers improving safety for users.
-- Law enforcement agencies tracking repeat offenders.
+1. 📞 *Incoming call from an unknown number*  
+   - Just like Google Dialer's auto-recording, our system starts recording unknown calls if enabled.
+2. 🎧 *Audio is recorded in real-time*
+3. 🧾 *Speech-to-text processing using OpenAI Whisper*
+4. 📊 *Text is fed into a fine-tuned BERT model*  
+   - Model classifies into categories like Extortion, Romance Scam, Tech Support, etc.
+5. 🔔 *User receives real-time alerts*  
+6. 🛡 *User chooses action*: Block, Report, or Save for future reference  
 
 ---
 
-##  Future Scope
+## 🌐 Gradio Interface (Demo for Hackathon)
 
-- Multi-language expansion
-- Legal-grade evidence storage
-- Integration with telecom infrastructure
-- Continuous AI training to detect evolving scam tactics
+In this demo version:
+- Users simulate a recorded call by uploading an .mp3 file.
+- The system transcribes and analyzes the audio instantly.
+- Output includes both the *transcript* and *predicted harassment/scam category*.
+
+<p align="center">
+  <img src="https://i.imgur.com/your_demo_screenshot.png" alt="Guardian AI Gradio Demo" width="600"/>
+</p>
+
+---
+
+## 🛠 Tech Stack  
+
+| Component | Technology |
+|----------|------------|
+| *Speech-to-Text* | OpenAI Whisper, Google Speech-to-Text API |
+| *NLP Classification* | BERT, Hugging Face Transformers, PyTorch |
+| *Frontend* | Gradio |
+| *Backend/API* | FastAPI / Node.js (future scope) |
+| *Database* | Firebase Firestore / MongoDB (future scope) |
+| *Cloud* | Google Colab, Google Cloud, AWS Lambda |
 
 ---
 
-## Screenshots & Architecture (Coming Soon)
-Stay tuned for UI demos and system architecture diagrams.
+## 📂 Dataset  
+
+Trained using a custom-labeled dataset containing messages and their scam categories such as:
+- 📞 Tech Support Scam  
+- 💰 Extortion / Sextortion  
+- ❤ Romance Scam  
+- 👮‍♂ Fake Law Enforcement  
+- 💼 Workplace Harassment  
+- 📩 Debt Collection Threats  
 
 ---
 
-## Team
+## 🔐 Features  
 
-Built  by *Compiling Pandas* from B.M.S Institute Of Technology and Management.
+- ✅ Automatically starts when an unknown number calls  
+- ✅ Real-time speech-to-text & harassment detection  
+- ✅ Classifies into multiple scam/harassment categories  
+- ✅ Supports legal evidence storage  
+- ✅ Designed to scale with telecom integration  
 
 ---
+
+## 🚀 Future Scope  
+
+- 🌎 *Multi-language model support* for regional detection  
+- 📶 *Integration with telecom providers* to block threats at the source  
+- 🗂 *Secure cloud storage* for flagged evidence  
+- 🔁 *Model improvement via continuous training*
+
+---
+
+## 🧑‍💻 Team – Compiling Pandas  
+- sandeep bhajantri 
+- tarun m 
+- tejas k m 
+- samartha s 
+
+---
+
+## 📸 Screenshots & Demo  
+
+Add screenshots or screen recordings of your Colab notebook, Gradio UI, or prediction examples here.  
+
+---
+
+## 📜 License  
+This project was developed as part of Hackfest 2025 – Open Innovation Track. Intended for educational and research purposes only.
+
+---
+
+> Guardian AI – Because your phone should be a safe space.
