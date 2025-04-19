@@ -46,7 +46,7 @@ In this demo version:
 - Users simulate a recorded call by uploading an .mp3 file.
 - The system transcribes and analyzes the audio instantly.
 - Output includes both the transcript and predicted harassment or scam category.
-![Guardian AI UI](WhatsApp%20Image%202025-04-20%20at%2001.20.47_e4477967.jpg)
+![Guardian AI UI](WhatsApp%20Image%202025-04-20%20at%2001.04.55_055f70ec.jpg)
 ![Guardian AI UI](WhatsApp%20Image%202025-04-20%20at%2000.17.27_96cb87b9.jpg)
 
 ---
