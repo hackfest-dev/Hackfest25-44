@@ -58,10 +58,8 @@ Component            | Technology
 --------------------|-----------------------------  
 Speech-to-Text      | OpenAI Whisper, Google Speech-to-Text API  
 NLP Classification  | BERT, Hugging Face Transformers, PyTorch  
-Frontend            | Gradio  
-Backend/API         | FastAPI / Node.js (future scope)  
-Database            | Firebase Firestore / MongoDB (future scope)  
-Cloud               | Google Colab, Google Cloud, AWS Lambda  
+Frontend            | Gradio   
+Cloud               | Google Colab, Google Cloud  
 
 ---
 
