@@ -104,12 +104,6 @@ Trained using a custom-labeled dataset containing messages and their scam catego
 
 ---
 
-## 📸 Screenshots & Demo  
-
-Add screenshots or screen recordings of your Colab notebook, Gradio UI, or prediction examples here.  
-
----
-
 ## 📜 License  
 This project was developed as part of Hackfest 2025 – Open Innovation Track. Intended for educational and research purposes only.
 
